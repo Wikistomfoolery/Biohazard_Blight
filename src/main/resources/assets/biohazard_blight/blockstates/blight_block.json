@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "biohazard_blight:block/blight_block"
+    }
+  }
+}
