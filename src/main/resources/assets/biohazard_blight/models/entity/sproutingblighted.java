@@ -3,7 +3,7 @@
 // Paste this class into your mod and generate all required imports
 
 
-public class SproutingBlighted<T extends Entity> extends EntityModel<T> {
+public class sproutingblighted<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("modid", "sproutingblighted"), "main");
 	private final ModelPart bone;
@@ -40,7 +40,7 @@ public class SproutingBlighted<T extends Entity> extends EntityModel<T> {
 	private final ModelPart bone27;
 	private final ModelPart bone28;
 
-	public SproutingBlighted(ModelPart root) {
+	public sproutingblighted(ModelPart root) {
 		this.bone = root.getChild("bone");
 		this.bone16 = this.bone.getChild("bone16");
 		this.bone15 = this.bone.getChild("bone15");
